@@ -52,6 +52,7 @@ namespace UPLOAD_IN_ARCHIVE
             {
                 var options = new RestClientOptions("https://127.0.0.1:9443/api/content/")
                 //test
+                //retr
                //var options = new RestClientOptions("http://192.168.8.128:8081/api/content/")
                 {
                     Authenticator = new HttpBasicAuthenticator("bu_efert", "Admin@123"),
